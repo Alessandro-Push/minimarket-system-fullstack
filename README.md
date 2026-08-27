@@ -12,7 +12,7 @@ El repositorio está organizado en una arquitectura desacoplada que separa el cl
 minimarket-system-fullstack/
 ├── backend/    # API REST desarrollada en Spring Boot
 └── frontend/   # Interfaz de usuario desarrollada en Angular
-
+```
 🚀 Tecnologías y Herramientas Utilizadas
 Backend (Spring Boot)
 Java 17 & Spring Boot 3
@@ -55,3 +55,4 @@ Búsqueda Dinámica: Filtro ágil de clientes y productos dentro de la interfaz.
 Manejo de CORS: Configuración de seguridad en Spring Boot para permitir la comunicación segura entre el frontend (localhost:4200) y el backend (localhost:8080).
 
 Inyección de Dependencias: Uso de servicios en Angular e interfaces Repository en Spring Boot para mantener un código limpio y desacoplado.
+`
