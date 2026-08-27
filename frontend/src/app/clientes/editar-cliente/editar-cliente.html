@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="container text-center" style="margin: 30px;">
+      <h3>Editar Cliente</h3>
+    </div>
+    <form style="width: 50%; margin: auto;" (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre"
+        [(ngModel)]="cliente.nombre">
+  
+      </div>
+      <div class="mb-3">
+        <label for="apellido"  class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="apellido" name="apellido"
+        [(ngModel)]="cliente.apellido">
+      </div>
+      <div class="mb-3">
+        <label for="email"  class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email"
+        [(ngModel)]="cliente.email">
+      </div>
+      <div class="container text-center">
+        <button type="submit" class="btn btn-warning btn-sm me-3">Guardar</button>
+        <a href="/cliente" class="btn btn-danger btn-sm">Regresar</a>
+      </div>
+    </form>
+  </div>
+  
