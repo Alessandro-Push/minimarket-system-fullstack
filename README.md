@@ -4,7 +4,7 @@ Sistema web de gestión integral para minimarkets diseñado para administrar de 
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 
 El repositorio está organizado en una arquitectura desacoplada que separa el cliente frontend de la API backend:
 
@@ -14,7 +14,7 @@ minimarket-system-fullstack/
 └── frontend/   # Interfaz de usuario desarrollada en Angular
 ```
 
-🚀 Tecnologías y Herramientas Utilizadas
+Tecnologías y Herramientas Utilizadas
 ---
 ## Backend (Spring Boot)
   - Java 17 & Spring Boot 3
@@ -38,9 +38,9 @@ minimarket-system-fullstack/
   
   - HTML5 / CSS3 / Bootstrap 5: Diseño web responsivo e interfaz dinámica.
 
-⚙️ Módulos y Funcionalidades del Sistema
+ Módulos y Funcionalidades del Sistema
 ---
-📦 1. Gestión de Productos e Inventario (CRUD)
+1. Gestión de Productos e Inventario (CRUD)
   - Listado General: Muestra de productos con su información relevante (nombre, categoría, precio, stock disponible).
   
   - Registro y Edición: Formulación de datos para dar de alta nuevos productos o actualizar su información en tiempo real.
@@ -49,12 +49,12 @@ minimarket-system-fullstack/
   
   - Control de Stock: Monitoreo de existencias para evitar desabastecimiento.
 
-👥 2. Gestión de Clientes
+ 2. Gestión de Clientes
   - Mantenimiento de Clientes: Creación, actualización y consulta de perfiles de clientes.
   
   - Búsqueda Dinámica: Filtro ágil de clientes y productos dentro de la interfaz.
 
-🔌 3. Integración Full Stack
+ 3. Integración Full Stack
   - Manejo de CORS: Configuración de seguridad en Spring Boot para permitir la comunicación segura entre el frontend (localhost:4200) y el backend (localhost:8080).
   
   - Inyección de Dependencias: Uso de servicios en Angular e interfaces Repository en Spring Boot para mantener un código limpio y desacoplado.
